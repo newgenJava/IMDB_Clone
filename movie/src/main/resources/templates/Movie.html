@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Movies & Reviews</title>
+	<script src="/js/movieScript.js"></script>
+	<link rel="stylesheet" href="/movie/css/movieStyleSheet.css">
+</head>
+
+<body>
+
+	<h1>🎬 Movie List with Reviews</h1>
+
+	<div style="text-align: center; margin-bottom: 2rem;">
+		<button class="add-review-btn" onclick="toggleMovieForm()">+ Add Movie</button>
+	</div>
+
+	<form id="movieForm" class="review-form" style="max-width: 500px; margin: 0 auto;">
+		<input type="text" id="movieTitle" placeholder="Title" required>
+		<input type="text" id="movieGenre" placeholder="Genre" required>
+		<input type="text" id="movieDirector" placeholder="Director" required>
+		<input type="number" id="movieYear" placeholder="Year" required>
+		<button onclick="submitMovie()">Add Movie</button>
+	</form>
+
+	<div id="movieList"></div>
+</body>
+
+</html>
