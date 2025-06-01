@@ -1,0 +1,63 @@
+/* userInfo.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.user-info-container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #222;
+  font-size: 28px;
+}
+
+.user-details {
+  text-align: left;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.user-details p {
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* Button to go to movies */
+.go-movies-btn {
+  display: inline-block;
+  padding: 12px 0;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(76, 175, 80, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  user-select: none;
+}
+
+.go-movies-btn:hover {
+  background-color: #388e3c;
+  box-shadow: 0 6px 15px rgba(56, 142, 60, 0.6);
+}

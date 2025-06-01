@@ -1,0 +1,63 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f7fc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.dashboard-container {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	width: 400px;
+	text-align: center;
+}
+
+h2 {
+	color: #333;
+}
+
+.user-info {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.user-info p {
+	font-size: 16px;
+	color: #555;
+	margin: 5px 0;
+}
+
+.logout-btn {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #d9534f;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.logout-btn:hover {
+	background-color: #c9302c;
+}
+
+.go-movies-btn {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #d9534f;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.go-movies-btn:hover {
+	background-color: #c9302c;
+}
